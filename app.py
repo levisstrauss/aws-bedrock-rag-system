@@ -4,7 +4,7 @@ from botocore.exceptions import ClientError
 import json
 from bedrock_utils import query_knowledge_base, generate_response, valid_prompt
 
-KNOWLEDGE_BASE_ID = "KPSJW2XS0R"
+KNOWLEDGE_BASE_ID = ""
 MODEL_ID = "anthropic.claude-3-sonnet-20240229"
 
 # Streamlit UI
