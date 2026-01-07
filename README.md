@@ -71,6 +71,10 @@ The system consists of two main infrastructure stacks:
 5. Claude 3 Sonnet generates response using retrieved context
 6. Answer is displayed to user with source attribution
 
+## Diagram
+
+<img src="./screenshots/diagram.png" />
+
 ## Project Structure
 
 ```
@@ -93,7 +97,7 @@ aws-bedrock-rag-system/
 │   └── aurora_sql.sql          # Database schema setup
 ├── bedrock_utils.py            # Core RAG functions
 ├── app.py                      # Streamlit application
-└── PROJECT_GUIDE.md            # Complete deployment guide
+
 ```
 
 ## Prerequisites
@@ -240,7 +244,6 @@ Total: Approximately $0.50 - $2.00/hour when active
 **Problem**: Knowledge Base creation fails with index error
 **Solution**: Ensure both HNSW and GIN indexes are created in the database 
 
-For detailed troubleshooting, see PROJECT_GUIDE.md.
 
 ## Documentation
 
